@@ -16,8 +16,8 @@
     <h3>HTMl/CSS Original</h3>
     <p>
       <button class="button primary" id="button">
-        <img width="33" height="33" style="float: left;margin-left: -10px;" src="logo.png">
-        <span style="line-height: 30px; margin-left: 7px; font-size: 1.1em;">Support via Gratipay</span>
+        <img width="33" height="33" style="float:left;margin:2px 0 -2px -10px;" src="logo.png">
+        <span style="line-height: 32px; margin-left: 7px; font-size: 1.1em;">Support via Gratipay</span>
       </button>
     </p>
     <h3>SVG output</h3>
@@ -71,17 +71,6 @@
                         '<stop stop-color="{{background.startColor}}" offset="0%"></stop>',
                         '<stop stop-color="{{background.stopColor}}" offset="100%"></stop>',
                     '</linearGradient>',
-                    // TODO: Is there a simpler way to define text shadow in SVG?
-                    '<filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">',
-                        '<feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>',
-                        '<feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>',
-                        '<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" ',
-                          'type="matrix" result="shadowMatrixOuter1"></feColorMatrix>',
-                        '<feMerge>',
-                            '<feMergeNode in="shadowMatrixOuter1"></feMergeNode>',
-                            '<feMergeNode in="SourceGraphic"></feMergeNode>',
-                        '</feMerge>',
-                    '</filter>',
                 '</defs>',
                 '<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">',
                     '<g id="gratipay" transform="translate(1.000000, 1.000000)">',
@@ -109,13 +98,13 @@
                         // Shadow
                         '<g>',
                           '<text id="Support-via-Gratipay" fill="white" font-family="{{fontFamily}}" font-size="{{fontSize}}" font-weight="{{fontWeight}}">',
-                              '<tspan x="49.5" y="27.1" fill="#111111" opacity="0.5" filter="url(#filter-2)">{{text}}</tspan>',
+                              '<tspan x="50" y="28" fill="#111111" opacity="0.3">{{text}}</tspan>',
                           '</text>',
                         '</g>',
                         // Text
                         '<g>',
                           '<text id="Support-via-Gratipay" fill="white" font-family="{{fontFamily}}" font-size="{{fontSize}}" font-weight="{{fontWeight}}">',
-                              '<tspan x="50" y="28" fill="#FFFFFF">{{text}}</tspan>',
+                              '<tspan x="50" y="29" fill="#FFFFFF">{{text}}</tspan>',
                           '</text>',
                         '</g>',
                     '</g>',
