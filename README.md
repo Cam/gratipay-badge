@@ -2,8 +2,8 @@
 
 GitHub styled badge for [Gratipay][]
 
-PNG: <a href="http://rawgit.com/Cam/gratipay-badge/master/dist/gratipay_@2x.png" target="_blank"><img src="http://rawgit.com/Cam/gratipay-badge/master/dist/gratipay_@2x.png" alt="Gratipay PNG" width="200" height="49"></a>
-SVG: <a href="http://rawgit.com/Cam/gratipay-badge/master/dist/gratipay.svg" target="_blank"><img src="http://rawgit.com/Cam/gratipay-badge/master/dist/gratipay.svg" alt="Gratipay SVG" width="200" height="49"></a>
+PNG: <a href="http://rawgit.com/Cam/gratipay-badge/blob/master/dist/gratipay_@2x.png" target="_blank"><img src="http://rawgit.com/Cam/gratipay-badge/master/dist/gratipay_@2x.png" alt="Gratipay PNG" width="200" height="49"></a>
+SVG: <a href="http://rawgit.com/Cam/gratipay-badge/blob/master/dist/gratipay.svg" target="_blank"><img src="http://rawgit.com/Cam/gratipay-badge/master/dist/gratipay.svg" alt="Gratipay SVG" width="200" height="49"></a>
 
 [Gratipay]: https://gratipay.com/
 [Gratipay badge]: dist/gratipay_@1x.png
